@@ -82,7 +82,7 @@ function App() {
   /* ================= ROUTES ================= */
 
   return (
-    <Router>
+    <Router basename="/e-store">
       <Header
         cartCount={cart.reduce((a, b) => a + b.quantity, 0)}
         search={search}
